@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home">
+    </item>
+
+    <item
+        android:id="@+id/action_parking"
+        android:title="Parking"
+        android:icon="@drawable/ic_parking">
+    </item>
+
+    <item
+        android:id="@+id/action_nav"
+        android:title="Navigation"
+        android:icon="@drawable/ic_nav">
+    </item>
+
+    <item
+        android:id="@+id/action_tour"
+        android:title="Tour"
+        android:icon="@drawable/ic_tour">
+    </item>
+
+    <item
+        android:id="@+id/action_catalog"
+        android:title="Catalog"
+        android:icon="@drawable/ic_catalog">
+    </item>
+
+    <item
+        android:id="@+id/action_sched"
+        android:title="Schedule"
+        android:icon="@drawable/ic_sched">
+    </item>
+
+    <item
+        android:title="Donate"
+        android:id="@+id/action_donate"
+        android:icon="@drawable/ic_donate">
+    </item>
+
+</menu>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MillportApp</string>
+    <string name="title_activity_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_sched">Schedule</string>
+    <string-array name="navitems_array">
+        <item>Home</item>
+        <item>Navigation</item>
+        <item>Tour</item>
+        <item>Catalog</item>
+        <item>Schedule</item>
+        <item>Donate</item>
+    </string-array>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="intro"> Millport Conservancy is a nonprofit organization that was created
+        in 1988 by Robert and Carolyn Wohlsen, who purchased the Millport Roller Mills,
+        along with auxiliary structures and surrounding farmland, in 1969. Visitors
+        can explore the Conservancy\’s extensive nature trails that wind past the
+        original millrace and through its woods and meadows. </string>
+    <string name="parking_title">These pictures will help guide you to Millport.</string>
+    <string name = "entry_description">This is the main parking area. When the conservancy
+            is open, this fence will be open and visitors may park anywhere behind the fence.</string>
+    <string name = "entry_road1_description"> If you arrive at the conservancy from the
+        East, you\'ll see a property on the left side unassociated with Millport.</string>
+    <string name="entry_road2_description"> If you arrive from the West, you\'ll see the
+        parking area on the left and unaffiliated residencies on the right.</string>
+    <string name="director_house_description"> This is where the directors of the conservancy
+    currently live. Lynn and Logan Myers have overseen the area for many years. </string>
+    <string name="driveway_description"> This is the main seating area just next to the barn,
+    where visitors may relax before/after exploring the rest of the conservancy.</string>
+    <string name="driveway_2_description"> This is the main parking area for conservancy
+    employees, unless otherwise indicated by Lynn or Logan.</string>
+    <string name="farm_barn_description"> This barn isn\'t part of Millport, instead it\'s
+    associated with an independent farm operating just across the streat.</string>
+    <string name="farm_storehouse_description"> This storehouse is also part of the farm
+    mentioned above, and isn\'t associated with Millport.</string>
+    <string name="fence_description"> When the conservancy is open, this fence will also be
+    to allow visitors to park along the grass instead of clogging the streets.</string>
+    <string name="barn_description"> This barn IS a part of Millport, and contains various
+    supplies for maintaining the grounds inside.</string>
+    <string name="office_description"> This room is the office of Millport, where the directors
+    handle most of their work. Generally if you have questions/concerns, you can head here.</string>
+    <string name="residentials_description"> These houses are not associated with Millport, and
+    should be treated respectively as private property. </string>
+    <string name="trailhead_description"> Here is the main trailhead that leads into the conservancy,
+    and there is another at the end of the parking lot.</string>
+</resources>

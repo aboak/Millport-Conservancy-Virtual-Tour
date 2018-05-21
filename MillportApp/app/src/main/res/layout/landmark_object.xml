@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/test_tidbit"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <ImageView
+        android:id="@+id/landmark_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/blue_line"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/landmark_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue Line"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintLeft_toRightOf="@id/landmark_icon"/>
+
+    <TextView
+        android:id="@+id/landmark_latlong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" (40.046081, -76.319946)"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintLeft_toRightOf="@id/landmark_title" />
+
+    <TextView
+        android:id="@+id/landmark_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/landmark_title"
+        app:layout_constraintTop_toBottomOf="@id/guideline"
+        android:text="The most popular place to eat on campus."/>
+
+</android.support.constraint.ConstraintLayout>
